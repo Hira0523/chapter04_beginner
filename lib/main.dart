@@ -37,7 +37,7 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Text(widget.title),
       ),
-      body: Column(
+      body: Row(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: <Widget>[
           Container(
